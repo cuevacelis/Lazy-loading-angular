@@ -8,5 +8,5 @@ npm install
 
 ## Description
 
-Ejemplo construido con Lazy-loading o Carga perezosa, acelera la carga inicial de tu web.
+Ejemplo construido con Lazy-loading o carga perezosa, acelera la carga inicial de tu web.
 Llama a tus componentes que necesitas, cuando los necesitas.
