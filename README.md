@@ -3,8 +3,8 @@
 Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
 ## Install
-git clone https://github.com/cuevacelis/Lazy-loading-angular.git
-npm install
+1. git clone https://github.com/cuevacelis/Lazy-loading-angular.git
+2. npm install
 
 ## Description
 
