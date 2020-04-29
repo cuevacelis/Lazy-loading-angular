@@ -14,15 +14,15 @@ Ejemplo construido con Lazy-loading o carga perezosa<br />
 
 ## ¿Problema?
 
-Al visitar una pagina Web construida en Angular, esta llama a AppModule en donde estan listados todos tus componentes.
+Al visitar una pagina Web construida en Angular, esta llama a AppModule en donde estan listados todos tus componentes.<br />
 Lo cual representa en un llamado a todos los componentes declarados en tu aplicacion.<br />
 Supongamos que tenemos en nuestra aplicacion dos vistas "Clientes" y "Operarios".<br />
 Pero solo necesitamos acceder a la vista de Clientes para visualizar la informacion de uno de ellos.<br />
-Entonces ¿Por que la pagina web necesitaria tambien cargar "Operarios" si nunca lo vamos a usar?, haciendo un tiempo inicial de espera mucho mas largo, cargando un componente innecesario para nosotros.
+Entonces ¿Por que la pagina web necesitaria tambien cargar "Operarios" si nunca lo vamos a usar?, haciendo un tiempo de espera inicial mucho mas largo, cargando un componente innecesario para nosotros.
 
 ## Solución
 Al usar Lazy Loading en la carga incial cargariamos a los componentes que vamos a necesitar
 
 ## Conlusión
-Entonces es ¿Lazy Loading necesario en todos los proyectos?.
+Entonces ¿Lazy Loading necesario en todos los proyectos?.<br />
 La respuesta es depende del tamaño del proyecto, si tienes un proyecto pequeño quizas no te convenga usar lazy loading, puesto que al hacer la carga incial cargara todos los componentes, lo cual resulta que la interaccion entre ellos sera mas rapida, puesto que ya todos los componentes fueron cargados y no se neceitara volver a llamarlos :)
