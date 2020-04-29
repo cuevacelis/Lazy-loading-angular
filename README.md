@@ -8,6 +8,6 @@ Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-
 
 ## Description
 
-Ejemplo construido con Lazy-loading o carga perezosa
-.Acelera la carga inicial de tu Pagina Web.
-.Llama a tus componentes que necesitas, cuando los necesitas.
+Ejemplo construido con Lazy-loading o carga perezosa<br />
+1. Acelera la carga inicial de tu Pagina Web.
+2. Llama a los componentes que necesitas, cuando los necesitas.
